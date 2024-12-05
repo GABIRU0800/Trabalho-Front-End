@@ -1,0 +1,49 @@
+{
+  "tournaments": [
+      {
+          "name": "Campeonato de Verão 2023",
+          "starting_date": "2023-06-15",
+          "ending_date": "2023-06-20",
+          "starting_hours": "10:00",
+          "ending_hours": "18:00",
+          "game": "League of Legends",
+          "prize_pool": 50000
+      },
+      {
+          "name": "Aberto de Outono 2023",
+          "starting_date": "2023-09-01",
+          "ending_date": "2023-09-05",
+          "starting_hours": "12:00",
+          "ending_hours": "20:00",
+          "game": "Dota 2",
+          "prize_pool": 75000
+      },
+      {
+          "name": "Conflito de Inverno 2023",
+          "starting_date": "2023-12-10",
+          "ending_date": "2023-12-15",
+          "starting_hours": "14:00",
+          "ending_hours": "22:00",
+          "game": "Counter-Strike: Global Offensive",
+          "prize_pool": 100000
+      },
+      {
+          "name": "Confronto de Primavera 2024",
+          "starting_date": "2024-03-01",
+          "ending_date": "2024-03-05",
+          "starting_hours": "09:00",
+          "ending_hours": "17:00",
+          "game": "Valorant",
+          "prize_pool": 60000
+      },
+      {
+          "name": "Série de Jogos Definitiva 2024",
+          "starting_date": "2024-07-20",
+          "ending_date": "2024-07-25",
+          "starting_hours": "11:00",
+          "ending_hours": "19:00",
+          "game": "Fortnite",
+          "prize_pool": 120000
+      }
+  ]
+}

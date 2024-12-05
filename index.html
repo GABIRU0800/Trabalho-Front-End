@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veasy</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Sessão Header -->
+    <header class="header">
+        <div class="container">
+            <div class="image-div">
+              <a href="/log-in.html">
+                <img src="/assets/logo.png" alt="Veasy">
+              </a>  
+            </div>
+            <div class="options-container">
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li>Products</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+            <button id="registerBtn" class="register-btn">Register</button>
+        </div>
+    </header>
+<!-- Modal Para o registro -->
+<div id="registerModal" class="modal">
+    <div class="modal-content">
+        <div class="form-div">
+
+            <span class="close">&times;</span>
+            <h2>Register</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="reg-username">Username</label>
+                    <input type="text" id="reg-username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-email">Email</label>
+                    <input type="email" id="reg-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">Password</label>
+                    <input type="password" id="reg-password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+    <main class="main">
+        <div class="container">
+            <div class="main-image-div">
+                <img src="/assets/logo.png" class="image" alt="Veasy">
+                <p class="main-text">
+                    Competição entre gamers,<br> por gamers,<br> para gamers.
+                </p>
+            </div>
+
+            <div class="form-div">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="username">Log-in</label>
+                        <input type="text" id="username" name="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Login">
+                        <a href="#">esqueci a senha</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+ <div class="tbi">
+
+     <div class="matchup-container">
+         <h1>THE BIG 1V1</h1>
+         <h4>Watch the bigest match of this week</h4>
+         <br>
+         <div class="teams">
+             <div class="team team1">
+                 <img src="/assets/LOUD.png" alt="Team 1 Logo">
+                </div>
+                <div class="vs">VS</div>
+                <div class="team team2">
+                    <img src="/assets/skt1.png" alt="Team 2 Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="footer">
+            <footer>
+                <div class="footer-content">
+                    <h4>Stay Connected</h4>
+                    <ul class="social-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Veasy. All rights reserved.</p>
+                </div>
+            </footer>
+    </div>
+</body>
+<script src="/log-in.js"></script>
+</html>

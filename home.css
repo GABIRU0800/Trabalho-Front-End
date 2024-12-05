@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    height: 6rem;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header .container .image-div{
+    width: 3.125rem;
+    height: 3.125rem;
+    padding-left: 3.125rem;
+}
+
+.header .container .image-div img{
+    height: 100%;
+    width: 100%;
+}
+
+.header .container .options-container{
+    padding-left: 30em;
+}
+
+.header .container .options-container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+     column-gap: 1.4rem;
+}
+
+.header .container .options-container ul li{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.header .container .profile-pic-div{
+    margin-left: 40rem;
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.header .container .profile-pic-div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+main .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 0.2rem;
+    height: 30.938rem;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.tournament-container {
+    height: 495px;
+    width: 725px;
+    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem; /* Increased gap for better spacing */
+    align-items: stretch; /* Stretch items to fill the container */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #151E32;
+}
+
+.tournament {
+    background-color: #253047;
+    border: 1px solid #ddd;
+    padding: 0.5rem; /* Reduced padding for better fit */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 auto; /* Allow the item to grow and shrink */
+    font-family: 'Poppins', sans-serif;
+    color: #ffffee;
+    transition: all 0.4s;
+}
+
+.tournament:hover{
+    box-shadow: 0 5px 5px rgba(177, 177, 177, 0.5)
+}
+
+.tournament h3 {
+    margin: 0;
+    font-size: 1.2rem; /* Adjust font size for better readability */
+}
+
+.tournament p {
+    margin: 2px 0; /* Reduced margin for better fit */
+    font-size: 0.9rem; /* Adjust font size for better readability */
+}
+
+.tournament-info {
+    height: 495px;
+    width: 725px;
+    padding: 10px;
+    background-color: #253047; /* Match the tournament background */
+    border: 1px solid #ddd; /* Match the tournament border */
+    color: #ffffee; /* Text color */
+    font-family: 'Poppins', sans-serif; /* Match font */
+}
+
+.subscribe-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline-block for proper spacing */
+    font-size: 16px; /* Font size */
+    margin-top: 10px; /* Space above the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.subscribe-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #0D0A1B;
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px solid white;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-content h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.social-links a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #FFD700; /* Change to a gold color on hover */
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+}
